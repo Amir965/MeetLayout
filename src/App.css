@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+.container{
+  border: 1px solid;
+  background: #202124;
+}
+.header{
+ 
+  margin: 20px;
+}
+.header1{
+      display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: #3C4043;
+    color: white;
+    border-radius: 10px;
+}
+.hfirst{
+    line-height: 1.25rem;
+    font-size: .875rem;
+    letter-spacing: .0178571429em;
+    font-weight: 500;
+    
+}
+.body{
+  display: flex;
+  margin: 0 20px;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 20px;
+}
+.side-image{
+  height: 450px;
+}

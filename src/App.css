@@ -61,6 +61,42 @@
     font-weight: 500;
     
 }
+.presenting-div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #3C4043;
+    color: white;
+    border-radius: 10px;
+    margin: 0 20px;
+}
+.presenting-text{
+  display: flex;
+  align-items: center;
+  padding: 6px 20px
+}
+.presenting-text span{
+  padding-left: 10px;
+  line-height: 1.25rem;
+    font-size: .875rem;
+    letter-spacing: .0178571429em;
+    font-weight: 500;
+}
+.presenting-text2{
+  padding: 6px 20px;
+}
+.presenting-text2 button{
+  color:blue;
+  display: flex;
+  align-items: center;
+  line-height: 1.25rem;
+    font-size: .875rem;
+    letter-spacing: .0178571429em;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    background:none ;
+}
 .body{
   display: flex;
   margin: 0 20px;
@@ -70,6 +106,17 @@
   justify-content: space-between;
   align-items: center;
   margin: 0 20px;
+}
+.footer-bottom-icon{
+  padding: 0 5px;
+  height: 50px;
+}
+.footerInner{
+  display: flex;
+  align-items: center;
+}
+.footerInner-image{
+  padding: 0 15px;
 }
 .side-image{
   height: 450px;
